@@ -1,0 +1,118 @@
+@font-face {
+	font-family: 'Bellota-LightItalic';
+	src: url('../fonts/Bellota-LightItalic.otf');
+}
+@font-face {
+	font-family: 'Bellota-BoldItalic';
+	src: url('../fonts/Bellota-BoldItalic.otf');
+}
+
+html, body {
+	height: 100%;
+	min-height: 100%;
+}
+
+form {
+	text-align: center;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	
+	color: #ffffff;
+	font-weight: bold;
+
+}
+
+.wrapper {
+	background-image: url("../images/backgrounds/desktop.jpg");
+	background-size: 120%;
+	width: 100%;
+	height: 100%;
+	min-width: 1000px;
+
+}
+
+.login_box {
+	font-family: 'Bellota-LightItalic', sans-serif;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	top: 7%;
+	width: 35%;
+	background-color: #7d95a6;
+	border: 1px solid #EDEDED;
+	border-radius: 7px;
+	padding: 5px;
+	opacity: 0.98;
+}
+
+.login_header {
+	font-family: 'Bellota-LightItalic', sans-serif;
+	width: 100%;
+	height: 90px;
+	background-color: #7d95a6;
+	color: #fff;
+	text-align: center;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.login_header h1 {
+	font-family: 'Bellota-BoldItalic', sans-serif;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #072335;
+	text-shadow: #73B6E2 0.5px 0.5px 0px;
+	font-size: 280%;
+}
+
+input[type="submit"] {
+	
+	font-family: 'Bellota-BoldItalic', sans-serif;
+	font-size: 100%;
+	height: 40px;
+	width: 80px;
+	border-radius: 5px;
+	margin: 5px;
+	border: none;
+	color: yellow;
+	background-color: gray;
+}
+input[type="submit"]:hover {
+	
+	font-family: 'Bellota-BoldItalic', sans-serif;
+	font-size: 100%;
+	height: 40px;
+	width: 80px;
+	border-radius: 5px;
+	margin: 5px;
+	border: none;
+	color: white;
+	background-color: green;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+	border: 1px solid #ffffff;
+	margin-top: 5px;
+	width: 70%;
+	height: 35px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+
+input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover {
+	border-color: #3498db;
+}
+
+#second {
+	display: none;
+}
+
+
+
+
